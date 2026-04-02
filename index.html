@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Текстовый Сад — Минималистичный блог</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .serif {
+            font-family: 'Playfair Display', serif;
+        }
+        .prose p {
+            margin-bottom: 1.5rem;
+            line-height: 1.8;
+        }
+        .prose p:last-child {
+            margin-bottom: 0;
+        }
+        .text-gradient {
+            background: linear-gradient(135deg, #1a1a1a 0%, #4a4a4a 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    </style>
+</head>
+<body class="bg-stone-50 text-stone-900 antialiased">
+
+    <!-- Header -->
+    <header class="max-w-2xl mx-auto px-6 pt-16 pb-12">
+        <nav class="flex justify-between items-center mb-16 text-sm font-medium text-stone-500">
+            <a href="#" class="hover:text-stone-900 transition-colors">Главная</a>
+            <a href="#" class="hover:text-stone-900 transition-colors">Заметки</a>
+            <a href="#" class="hover:text-stone-900 transition-colors">Обо мне</a>
+        </nav>
+        
+        <h1 class="serif text-5xl md:text-6xl font-semibold mb-4 text-gradient italic">
+            Текстовый сад
+        </h1>
+        <p class="text-stone-500 text-lg">Мысли, идеи и наблюдения в минималистичном формате</p>
+    </header>
+
+    <!-- Main Content -->
+    <main class="max-w-2xl mx-auto px-6 pb-24">
+        
+        <!-- Article 1 -->
+        <article class="mb-16 pb-16 border-b border-stone-200">
+            <time class="text-xs font-medium text-stone-400 uppercase tracking-wider">12 декабря 2024</time>
+            <h2 class="serif text-3xl font-semibold mt-2 mb-6 hover:text-stone-600 cursor-pointer transition-colors">
+                О пользе пустоты
+            </h2>
+            <div class="prose text-stone-700">
+                <p>
+                    В эпоху постоянного информационного шума способность оставаться наедине с собой становится редкостью. 
+                    Пустота — не отсутствие чего-то, а пространство для возможностей. Когда мы перестаём заполнять 
+                    каждую свободную минуту контентом, в голове появляется место для настоящих мыслей.
+                </p>
+                <p>
+                    Минимализм в дизайне отражает эту же философию: чем меньше визуального шума, тем яснее посыл. 
+                    Каждый элемент на странице должен зарабатывать своё место, каждый отступ — иметь смысл.
+                </p>
+            </div>
+            <a href="#" class="inline-block mt-6 text-sm font-medium text-stone-900 border-b border-stone-300 hover:border-stone-900 transition-colors">
+                Читать дальше
+            </a>
+        </article>
+
+        <!-- Article 2 -->
+        <article class="mb-16 pb-16 border-b border-stone-200">
+            <time class="text-xs font-medium text-stone-400 uppercase tracking-wider">8 декабря 2024</time>
+            <h2 class="serif text-3xl font-semibold mt-2 mb-6 hover:text-stone-600 cursor-pointer transition-colors">
+                Типографика как искусство
+            </h2>
+            <div class="prose text-stone-700">
+                <p>
+                    Шрифт — это голос текста. Он может шептать или кричать, быть дружелюбным или холодным, 
+                    строгим или игривым. Выбор шрифта — это не эстетическое решение, а коммуникативное.
+                </p>
+                <p>
+                    Сочетание sans-serif для основного текста и serif для заголовков создаёт визуальную 
+                    иерархию без необходимости в ярких цветах или тяжёлых элементах. Текст сам по себе 
+                    становится изображением.
+                </p>
+            </div>
+            <a href="#" class="inline-block mt-6 text-sm font-medium text-stone-900 border-b border-stone-300 hover:border-stone-900 transition-colors">
+                Читать дальше
+            </a>
+        </article>
+
+        <!-- Article 3 -->
+        <article class="mb-16 pb-16 border-b border-stone-200">
+            <time class="text-xs font-medium text-stone-400 uppercase tracking-wider">3 декабря 2024</time>
+            <h2 class="serif text-3xl font-semibold mt-2 mb-6 hover:text-stone-600 cursor-pointer transition-colors">
+                Медленное чтение
+            </h2>
+            <div class="prose text-stone-700">
+                <p>
+                    Скроллинг не заменяет чтение. Когда мы пролистываем ленту, мозг работает в режиме 
+                    сканирования — ищет якоря, ключевые слова, визуальные маркеры. Настоящее чтение требует 
+                    замедления, пауз, возвращений назад.
+                </p>
+                <p>
+                    Этот сайт — попытка создать пространство для медленного чтения. Никаких картинок, 
+                    отвлекающих от текста. Никаких всплывающих окон. Только слова и мысли.
+                </p>
+            </div>
+            <a href="#" class="inline-block mt-6 text-sm font-medium text-stone-900 border-b border-stone-300 hover:border-stone-900 transition-colors">
+                Читать дальше
+            </a>
+        </article>
+
+        <!-- Article 4 -->
+        <article class="mb-16 pb-16">
+            <time class="text-xs font-medium text-stone-400 uppercase tracking-wider">28 ноября 2024</time>
+            <h2 class="serif text-3xl font-semibold mt-2 mb-6 hover:text-stone-600 cursor-pointer transition-colors">
+                Цифровая аскетика
+            </h2>
+            <div class="prose text-stone-700">
+                <p>
+                    Мы окружены визуальным мусором. Каждый пиксель на экране конкурирует за внимание, 
+                    каждая кнопка кричит «Нажми меня!». В таком мире минимализм — это не просто стиль, 
+                    а акт защиты.
+                </p>
+                <p>
+                    Убрать всё лишнее — сложнее, чем добавить побольше. Это требует понимания сути, 
+                    жёсткого редактирования и смелости сказать «нет».
+                </p>
+            </div>
+            <a href="#" class="inline-block mt-6 text-sm font-medium text-stone-900 border-b border-stone-300 hover:border-stone-900 transition-colors">
+                Читать дальше
+            </a>
+        </article>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="max-w-2xl mx-auto px-6 py-12 border-t border-stone-200 text-center">
+        <p class="text-sm text-stone-400 mb-2">
+            Сделано с любовью к тексту
+        </p>
+        <div class="flex justify-center gap-6 text-xs font-medium text-stone-500">
+            <a href="#" class="hover:text-stone-900 transition-colors">Archive</a>
+            <a href="#" class="hover:text-stone-900 transition-colors">RSS</a>
+            <a href="#" class="hover:text-stone-900 transition-colors">Twitter</a>
+        </div>
+    </footer>
+
+<script src="https://deepsite.hf.co/deepsite-badge.js"></script>
+</body>
+</html>
